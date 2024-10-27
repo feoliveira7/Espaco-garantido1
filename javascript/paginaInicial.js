@@ -68,7 +68,7 @@ function sairConta() {
 const imageSlider = document.getElementById('bloco3')
 const imageSlider2 = document.getElementById('bloco3-pc')
 
-const imagens = ['/images/imagemSala1.jpeg', '/images/imagemSala2.jpeg', '/images/imagemSala3.jpeg', '/images/imagemSala4.jpeg' ]
+const imagens = ['./images/imagemSala1.jpeg', './images/imagemSala2.jpeg', './images/imagemSala3.jpeg', './images/imagemSala4.jpeg' ]
 let index = 0;
 
 
