@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Garantido</title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="titleLoginPage">
+            <p class="titleLine1">ESPAÇO</p>
+            <p class="titleLine2">GARANTIDO</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="loginFrame">
+
+            <div class="fundoInfosLogin">
+                <p class="infoLogin1"></p>
+                <p class="infoLogin2">Entre em sua conta.</p>
+            </div>
+
+
+        <div class="loginContent">
+
+            <div class="userGroup">
+
+                <div class="userIconDiv">
+                  <img class="userImg" src="images/userIcon.png" alt="">  <label class="userTxt">Usuário:</label>
+                </div>
+
+                <input class="userInput" id="usernameInput" type="text" placeholder="Login">
+
+            </div>
+
+            <div class="passwordGroup">
+
+                <div class="passwordIconDiv">
+                    <img class="passwordImg" src="images/lockIcon.png" alt=""><label class="passwordTxt">Senha:</label>
+                </div>
+
+                <input class="passwordInput" id="passwordInput" type="password" placeholder="Digite sua senha:">
+
+            </div>
+
+            <button class="loginButton-Desktop" onclick="loginDesktop()">Entrar</button>
+            <button class="loginButton-Mobile" onclick="loginMobile()"> <img class="loadingIcon-Mobile" id="loadingIcon-Mobile" src="images/loadingRightIcon.png" alt=""> <p id="loginButtonText-Mobile">Entrar</p></button>
+
+            <p class="warnErro-Mobile" id="warnErro-Mobile">Usuário ou senha incorretos.</p>
+
+        </div>
+
+        </div>
+    </main>
+
+    <div class="centralLogo">
+        <img class="logoSenaiLogin" src="images/WhiteSenaiLogo.png" alt="">
+    </div>
+
+
+    <script src="javascript/login.js"></script>
+</body>
+</html>

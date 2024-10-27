@@ -1,0 +1,466 @@
+
+
+    body{
+        background: linear-gradient(180deg, rgba(25,97,230,1) 0%, rgba(71,124,222,1) 100%);
+        background-repeat: no-repeat;
+        background-color: #477cde;
+    }
+    
+    .titleLoginPage{
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titleLine1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 41px;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    
+    .titleLine2{
+    
+        margin-top: -43px;
+        color: white;
+        font-family: Poppins;
+        font-size: 23px;
+        letter-spacing: 5px;
+        font-weight: 400;
+    }
+    
+    main{
+        margin-top: 7px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .loginFrame{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 340px;
+        height: 380px;
+        border-radius: 20px;
+        background-color: #6099ee;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.212);
+    }
+    
+    .fundoInfosLogin{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 340px;
+        height: 70px;
+    }
+    
+    .infoLogin1{
+       font-family: Montserrat;
+       color: rgb(51, 51, 51);
+       font-weight: 600;
+       font-size: 19px;
+    }
+    
+    .infoLogin1::after {
+        content: "Bem vind@, ao Site!";
+    }
+    
+    .infoLogin2{
+        margin-top: -10px;
+        font-family: Montserrat;
+        color: rgb(51, 51, 51);
+        font-weight: 500;
+        font-size: 17px;
+     }
+    
+    
+    .loginContent{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* CSS do usuário */
+    
+    .userGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userIconDiv{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    
+    .userImg{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .userTxt{
+        margin-left: 3px;
+        font-family: Poppins;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    
+    }
+    
+    .userInput{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: 500;
+        outline: none;
+        padding-left: 10px;
+        color: rgb(75, 75, 75);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    
+    }
+    
+    .userInput::placeholder{
+        color: rgb(207, 207, 207);
+    }
+    
+    /* CSS da senha */
+    
+    .passwordGroup{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .passwordIconDiv{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    
+    .passwordImg{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .passwordTxt{
+        margin-left: 4px;
+        font-family: Poppins;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    
+    }
+    
+    .passwordInput{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: 500;
+        outline: none;
+        padding-left: 10px;
+        color: rgb(75, 75, 75);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    
+    }
+    
+    .passwordInput::placeholder{
+        color: rgb(207, 207, 207);
+    }
+    
+    .loginButton-Desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 40px;
+        margin-top: 40px;
+        font-size: 25px;
+        font-family: Inter;
+        font-weight: 600;
+        border-radius: 20px;
+        background-color: white;
+        color: #1c5ab8;
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    }
+    
+    .loginButton:hover{
+        background-color: rgb(228, 228, 228);
+    }
+
+    .loginButton-Mobile{
+        display: none;
+    }
+
+    .warnErro-Mobile{
+        display: none;
+        color: white;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    
+    .centralLogo{
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoSenaiLogin{
+        width: 140px;
+    }
+
+
+
+@media (max-width: 490px){
+    body{
+        background-color: #477CDE;
+    }
+    
+    .titleLoginPage{
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .titleLine1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 41px;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    
+    .titleLine2{
+    
+        margin-top: -43px;
+        color: white;
+        font-family: Poppins;
+        font-size: 23px;
+        letter-spacing: 5px;
+        font-weight: 400;
+    }
+    
+    main{
+        margin-top: 7px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .loginFrame{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 340px;
+        height: 390px;
+        border-radius: 20px;
+        background-color: #6099ee;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.212);
+    }
+    
+    .fundoInfosLogin{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 340px;
+        height: 70px;
+    }
+    
+    .infoLogin1{
+       font-family: Montserrat;
+       color: rgb(51, 51, 51);
+       font-weight: 600;
+       font-size: 19px;
+    }
+    
+    .infoLogin1::after {
+        content: "Bem vind@, ao APP!";
+    }
+    
+    .infoLogin2{
+        margin-top: -10px;
+        font-family: Montserrat;
+        color: rgb(51, 51, 51);
+        font-weight: 500;
+        font-size: 17px;
+     }
+    
+    
+    .loginContent{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* CSS do usuário */
+    
+    .userGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .userIconDiv{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    
+    .userImg{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .userTxt{
+        margin-left: 3px;
+        font-family: Poppins;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    
+    }
+    
+    .userInput{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: 500;
+        outline: none;
+        padding-left: 10px;
+        color: rgb(75, 75, 75);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    
+    }
+    
+    .userInput::placeholder{
+        color: rgb(207, 207, 207);
+    }
+    
+    /* CSS da senha */
+    
+    .passwordGroup{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .passwordIconDiv{
+        display: flex;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+    
+    .passwordImg{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .passwordTxt{
+        margin-left: 4px;
+        font-family: Poppins;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    
+    }
+    
+    .passwordInput{
+        width: 260px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: 500;
+        outline: none;
+        padding-left: 10px;
+        color: rgb(75, 75, 75);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    
+    }
+    
+    .passwordInput::placeholder{
+        color: rgb(207, 207, 207);
+    }
+    
+    .loginButton-Mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+        height: 40px;
+        margin-top: 40px;
+        font-size: 25px;
+        font-family: Inter;
+        font-weight: 600;
+        border-radius: 20px;
+        background-color: white;
+        color: #1c5ab8;
+        border: none;
+        outline: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.158);
+    }
+    
+    .loginButton-Desktop{
+        display: none;
+    }
+
+    .loadingIcon-Mobile{
+        display: none;
+        width: 20px;
+        animation: rodar 1s linear infinite;
+    }
+
+    @keyframes rodar {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .warnErro-Mobile{
+        display: none;
+        color: white;
+        font-family: Poppins;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .centralLogo{
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .logoSenaiLogin{
+        width: 140px;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Garantido</title>
+    <link rel="stylesheet" href="css/paginaInicial.css">
+   
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="mobile" class="mobile">
+        <header class="header-mobile" id="header-mobile">
+
+            <div id="headerLine1" class="headerLine1">
+                <div class="divLogo-mobile">
+    
+                    <p onclick="location.href='helloWorld.html'" class="logoLine1">ESPAÇO</p>
+                    <p class="logoLine2">GARANTIDO</p>
+        
+                </div>
+        
+                <div id="divConta-mobile" class="divConta-mobile" onclick="menu()">
+        
+                    <p class="nomeUsuario-Header" id="nomeUsuario-Header">{nomeUsuario}</p> <img class="fotoUsuario-Header" id="fotoUsuario-Header" src="images/profile-user.png" alt="">
+        
+                </div>
+            </div>
+    
+    
+            <div id="containerMenu" class="exitConta-Mobile">
+                <div id="fundoBotoes" class="fundoBotoes">
+                    <div id="fundoPerfil" class="fundoPerfil">
+                        <button id="perfil-Button" class="perfil-Button" onclick="settings()">Meu Perfil</button>
+                    </div>
+                    <div id="fundoConfiguracoes" class="fundoConfiguracoes">
+                        <button id="configuracoes-Button" class="configuracoes-Button" onclick="settings()">Configurações</button>
+                    </div>
+                    <div id="fundoTema" class="fundoTema" >
+                        <button id="tema-Button" class="tema-Button" onclick="alternarTemaMobile()">Tema: Claro</button>
+                    </div>
+                    <div id="fundoSairConta" class="fundoSairConta" onclick="sairConta()">
+                        <button id="exitConta-Button" class="exitConta-Button">Sair <img id="exitConta-Image" class="exitConta-Image" src="images/exitBlack.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+    
+        </header>
+    
+        <div class="navBar-Mobile">
+            <div class="fundoNavBar-Mobile">
+    
+                <div class="button1navBar-Mobile" >
+                    <img class="imgButton1navBar" src="images/homeWhite.png" alt="">
+                </div>
+    
+                <div class="button2navBar-Mobile">
+                    <img class="imgButton2navBar" src="images/mapBlack.png" alt="">
+                </div>
+    
+                <div class="button3navBar-Mobile">
+                    <img class="imgButton3navBar" src="images/menuBlack.png" alt="">
+                </div>
+    
+    
+            </div>
+        </div>
+    
+        <main>
+    
+            <div class="blocosInterativos">
+
+                <div class="bloco1" id="bloco1">
+
+                    <div class="headBloco1">
+
+                        <img id="imgHeadBloco1" class="imgHeadBloco1" src="images/calendarBlack.png" alt="">
+
+                        <div class="txtBloco1">
+                            <p id="titleBloco1" class="titleBloco1">Próximas reservas:</p>
+                            <p id="dateBloco1" class="dateBloco1">Out/2024</p>
+                        </div>
+                    </div>
+
+                    <p class="contentBloco1">Sem reservas para a data selecionada.</p>
+
+                </div>
+
+                <div class="bloco2" id="bloco2">
+                    <img id="imgBloco2" class="imgBloco2" src="images/historyBlack.png" alt=""> <p id="txtBloco2" class="dateBloco2">Histórico de Reservas</p>
+                </div>
+
+                <div id="bloco3" class="bloco3">
+                    <div class="fundoButtonBloco3">
+                        <p class="buttonBloco3">Ver salas disponíveis</p> <img class="imgButtonBloco3" src="images/right-arrow.png" alt="">
+                    </div>
+                    
+
+                </div>
+
+
+
+            </div>
+        </main>
+    </div>
+
+    <div id="erroPage" class="erroPage">
+
+        <div class="header-Erro">
+            <div class="erro-Button" onclick="backHome()">
+                <img class="img-Erro" src="images/right-arrow.png" alt=""> <p class="subTitle-Erro">Voltar</p>
+            </div>
+
+            <div class="erro-Button-pc" onclick="backHome2()">
+                <img class="img-Erro" src="images/right-arrow.png" alt=""> <p class="subTitle-Erro">Voltar</p>
+            </div>
+            
+
+        </div>
+
+        <div class="centerInfos">
+            <h1 class="titleError">Desculpe, ainda estamos trabalhando nisso!</h1>
+
+            <img class="img-progress" src="images/workingIcon1.png" alt="">
+        </div>
+        
+
+    </div>
+    
+<div class="computer" id="computer">
+
+    <header class="header-pc">
+        <div class="headerPcline1">
+            <div class="divLogo-pc">
+                <img class="logoNavIcon-pc" src="images/menuWhite.png" alt=""> <P id="logoPcLine1" class="logoPcLine1">ESPAÇO GARANTIDO</P>
+            </div>
+    
+            <div class="divConta-pc" onclick="menu2()"> 
+                <p class="nomeUsuario2-Header" id="nomeUsuario2-Header">{nomeUsuario}</p> <img class="fotoUsuario2-Header" id="fotoUsuario2-Header" src="images/profile-user.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div id="containerMenu-pc" class="containerMenu-pc">
+            <div class="fundoBotoes-pc">
+                <div class="fundoPerfil-pc">
+                    <button class="perfil-Button-pc" onclick="settings2()">Meu Perfil</button>
+                </div>
+                <div class="fundoConfiguracoes-pc">
+                    <button class="configuracoes-Button-pc" onclick="settings2()">Configurações</button>
+                </div>
+                <div class="fundoTema-pc" >
+                    <button class="tema-Button-pc">Tema: Claro</button>
+                </div>
+                <div class="fundoSairConta-pc" onclick="sairConta()">
+                    <button class="exitConta-Button-pc">Sair <img class="exitConta-Image-pc" src="images/exitBlack.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-pc">
+
+        <div class="navbar-pc">
+            <div class="buttonsNavBar">
+                <button class="navbarButton1"><img class="navbarButtonImg1" src="images/homeWhite.png" alt="">Home</button>
+                <button class="navbarButton2"><img class="navbarButtonImg1" src="images/mapWhite.png" alt="">Mapa</button>
+                <button class="navbarButton3"><img class="navbarButtonImg1" src="images/menuWhite.png" alt="">Navegar</button>
+                
+            </div>
+        </div>
+
+        <div class="contentMain">
+            <div class="bloco1-pc">
+
+                <div class="headBloco1-pc">
+    
+                    <img class="imgHeadBloco1-pc" src="images/calendarBlack.png" alt="">
+    
+                    <div class="txtBloco1-pc">
+                        <p class="titleBloco1-pc">Próximas reservas:</p>
+                        <p class="dateBloco1-pc">Out/2024</p>
+                    </div>
+                </div>
+                <div class="centerDateinfo">
+                    <p class="contentBloco1-pc">Sem reservas para a data selecionada.</p>
+                </div>
+                
+    
+            </div>
+    
+            <div class="bloco2-pc">
+                <img class="imgBloco2-pc" src="images/historyBlack.png" alt=""> <p class="dateBloco2-pc">Histórico de Reservas</p>
+            </div>
+    
+            <div id="bloco3-pc" class="bloco3-pc">
+                <div class="fundoButtonBloco3-pc">
+                    <p class="buttonBloco3-pc">Ver salas disponíveis</p> <img class="imgButtonBloco3-pc" src="images/right-arrow.png" alt="">
+                </div>
+                
+    
+            </div>
+        </div>
+        
+
+    </main>
+
+
+
+</div>
+
+
+
+    <script src="javascript/paginaInicial.js"></script>
+    <script src="pageTheme.js"></script>
+</body>
+</html>

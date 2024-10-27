@@ -1,0 +1,1014 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.mobile{
+    display: none;
+}
+
+.header-pc{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100vw;
+    height: 70px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: #1c77ff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+}
+
+.headerPcline1{
+    display: flex;
+
+    width: 100vw;
+    height: 90px;
+  
+}
+
+.divLogo-pc{
+    display: flex;
+    align-items: center;
+    user-select: none;
+    width: 80vw;
+    height: 70px;
+}
+
+
+.logoNavIcon-pc{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.logoPcLine1{
+
+    margin-left: 15px;
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 450;
+}
+
+.divConta-pc{
+    background-color: #1c77ff;
+    position:relative;
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 270px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.nomeUsuario2-Header{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.fotoUsuario2-Header{
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.main-pc{
+    display: flex;
+}
+
+.navbar-pc{
+    display: flex;
+    justify-content: center;
+    margin-left: -8px;
+    width: 25%;
+    height: 768px;
+    background-color: #1c77ff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+}
+
+.buttonsNavBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 50%;
+    height: 300px;
+}
+
+.navbarButton1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    width: 170%;
+    height: 13%;
+    background-color: #3d8bff;
+    border: none;
+    border-radius: 07px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.075);
+}
+
+.navbarButton1:hover{
+    background-color: #3184ff;
+}
+
+.navbarButton2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    width: 170%;
+    height: 13%;
+    background-color: #1c77ff;
+    border: none;
+    border-radius: 07px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.075);
+}
+
+.navbarButton2:hover{
+    background-color: #3184ff;
+}
+
+.navbarButton3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    width: 170%;
+    height: 13%;
+    background-color: #1c77ff;
+    border: none;
+    border-radius: 07px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.075);
+}
+
+.navbarButton3:hover{
+    background-color: #3184ff;
+}
+
+.navbarButtonImg1{
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 25px;
+}
+
+.contentMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 45px;
+}
+
+.bloco1-pc{
+    width: 500px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.151);
+}
+
+
+.headBloco1-pc{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.imgHeadBloco1-pc{
+    width: 42px;
+    height: 42px;
+    opacity: 80%;
+}
+
+.titleBloco1-pc{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.dateBloco1-pc{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -25px;
+    margin-left: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.centerDateinfo{
+    display: flex;
+    justify-content: center;
+}
+
+.contentBloco1-pc{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(173, 173, 173);
+}
+
+.bloco2-pc{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 13px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.151);
+    cursor: pointer;
+    user-select: none;
+}
+
+.bloco2-pc:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.dateBloco2-pc{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 7px;
+    color: rgb(68, 68, 68);
+}
+
+.imgBloco2-pc{
+    width: 27px;
+    height: 27px;
+    opacity: 80%;
+    margin-left: 15px;
+}
+
+#bloco3-pc{
+    display: flex;
+    align-items: end;
+    width: 500px;
+    height: 240px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.418);
+    background-image: url(../images/imagemSala1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    transition: background-image 2s ease-in-out;
+}
+
+.fundoButtonBloco3-pc{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8337710084033614) 49%, rgba(0,0,0,0) 100%);
+
+}
+
+.buttonBloco3-pc{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.imgButtonBloco3-pc{
+    width: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.fundoBotoes-pc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 200px;
+    border-radius: 4px;
+    margin-right: 7px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+
+.containerMenu-pc {
+    display: flex;
+    opacity: 0%;
+    justify-content: right;
+    margin-top: -200px;
+    position: relative;
+    z-index: 5;
+    transition: 0.6s ease-in-out;
+}
+
+.fundoSairConta-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 3px;
+
+    width: 150px;
+    height: 40px;
+}
+
+.fundoSairConta-pc:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.exitConta-Button-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c77ff00;
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 560;
+
+}
+
+.exitConta-Image-pc{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(97%) saturate(12%) hue-rotate(323deg) brightness(100%) contrast(88%);
+}
+
+.fundoPerfil-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 3px;
+    margin-bottom: 3px;
+
+    width: 150px;
+    height: 40px;
+}
+
+.fundoPerfil-pc:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.perfil-Button-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c77ff00;
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 560;
+
+}
+
+.fundoConfiguracoes-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 3px;
+    margin-bottom: 3px;
+ 
+    width: 150px;
+    height: 40px;
+}
+
+.fundoConfiguracoes-pc:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.configuracoes-Button-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c77ff00;
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 560;
+
+}
+
+.fundoTema-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 3px;
+    margin-bottom: 3px;
+    width: 150px;
+    height: 40px;
+}
+
+.fundoTema-pc:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.tema-Button-pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c77ff00;
+    border: none;
+    height: 45px;
+    width: 140px;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 560;
+
+}
+
+.erro-Button-pc{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    cursor: pointer;
+}
+
+.erro-Button{
+    display: none;
+}
+
+
+@media (max-width: 490px){
+
+    .erro-Button{
+        display: flex;
+        align-items: center;
+        width: 200px;
+    
+    }
+
+    .computer{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .erro-Button-pc{
+        display: none;
+    }
+        
+    body{
+        background-color: white;
+    }
+
+    .header-mobile{
+        display: flex;
+        flex-direction: column;
+        margin-top: -8px;
+        margin-left: -8px;
+        width: 100vw;
+        height: 90px;
+        background-color: #1c77ff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+    }
+
+    .headerLine1{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        height: 90px;
+        margin-top: 4px;
+    }
+
+    .divLogo-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 36vw;
+        height: 84px;
+    }
+
+    .logoLine1{
+        margin-top: 15px;
+        margin-left: 15px;
+        color: white;
+        font-family: Poppins;
+        font-size: 25px;
+        letter-spacing: 4.5px;
+        font-weight: 350;
+    }
+
+    .logoLine2{
+        margin-left: 15px;
+        margin-top: -30px;
+        color: white;
+        font-family: Poppins;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+
+    .divConta-mobile{
+        background-color: #1c77ff;
+        position:relative;
+        z-index: 100;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        width: 64vw;
+        height: 90px;
+        margin-top: -8px;
+
+    }
+
+    .nomeUsuario-Header{
+        color: rgb(255, 255, 255);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        margin-right: 10px;
+    }
+
+    .fotoUsuario-Header{
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+
+
+
+    .fundoBotoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 165px;
+        height: 200px;
+        border-radius: 4px;
+        margin-right: 7px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    }
+
+    .exitConta-Mobile {
+        display: flex;
+        opacity: 0%;
+        justify-content: right;
+        margin-top: -100px;
+        position: relative;
+        z-index: 5;
+        transition: 0.6s ease-in-out;
+    }
+
+    .fundoSairConta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgb(241, 241, 241);
+        border-radius: 3px;
+   
+        width: 150px;
+        height: 40px;
+    }
+
+    .fundoSairConta:hover{
+        background-color: rgb(243, 243, 243);
+    }
+
+    .exitConta-Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c77ff00;
+        border: none;
+        height: 45px;
+        width: 100px;
+        border-radius: 5px;
+        color: rgb(36, 36, 36);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 560;
+    
+    }
+
+    .exitConta-Image{
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        opacity: 80%;
+    }
+
+    .fundoPerfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgb(241, 241, 241);
+        border-radius: 3px;
+        margin-bottom: 3px;
+  
+        width: 150px;
+        height: 40px;
+    }
+
+    .fundoPerfil:hover{
+        background-color: rgb(243, 243, 243);
+    }
+
+    .perfil-Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c77ff00;
+        border: none;
+        height: 45px;
+        width: 100px;
+        border-radius: 5px;
+        color: rgb(36, 36, 36);
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 560;
+    
+    }
+
+    .fundoConfiguracoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgb(241, 241, 241);
+        border-radius: 3px;
+        margin-bottom: 3px;
+     
+        width: 150px;
+        height: 40px;
+    }
+
+    .fundoConfiguracoes:hover{
+        background-color: rgb(243, 243, 243);
+    }
+
+    .configuracoes-Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c77ff00;
+        border: none;
+        height: 45px;
+        width: 100px;
+        border-radius: 5px;
+        color: rgb(36, 36, 36);
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 560;
+    
+    }
+
+    .fundoTema{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgb(241, 241, 241);
+        border-radius: 3px;
+        margin-bottom: 3px;
+        width: 150px;
+        height: 40px;
+    }
+
+
+
+    .tema-Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c77ff00;
+        border: none;
+        height: 45px;
+        width: 140px;
+        border-radius: 5px;
+        color: rgb(36, 36, 36);
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 560;
+    
+    }
+    
+    .navBar-Mobile{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 700px; 
+
+    }
+
+    .fundoNavBar-Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        height: 50px;
+        background-color: white;
+        border-radius: 50px;
+        box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.151);
+    }
+
+    .button1navBar-Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c77ff;
+        width: 120px;
+        height: 100%;
+        border-radius: 50px;
+    }
+
+    .imgButton1navBar{
+        width: 30px;
+        height: 30px;
+    }
+
+    .button2navBar-Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 120px;
+        height: 100%;
+        border-radius: 50px;
+    }
+
+    .imgButton2navBar{
+        width: 30px;
+        height: 30px;
+        opacity: 30%;
+    }
+
+    .button3navBar-Mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 120px;
+        height: 100%;
+        border-radius: 50px;
+    }
+
+    .imgButton3navBar{
+        width: 30px;
+        height: 30px;
+        opacity: 30%;
+    }
+    
+.blocosInterativos{
+    flex-direction: column;
+    margin-top: 30px;
+    display: flex;
+    user-select: none;
+    align-items: center;
+}
+
+.bloco1{
+    width: 320px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.151);
+}
+
+
+.headBloco1{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.imgHeadBloco1{
+    width: 42px;
+    height: 42px;
+    opacity: 80%;
+}
+
+.titleBloco1{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.dateBloco1{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -25px;
+    margin-left: 10px;
+    color: rgb(68, 68, 68);
+}
+
+.contentBloco1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 280px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgb(173, 173, 173);
+}
+
+.bloco2{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 13px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.151);
+}
+
+.dateBloco2{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 7px;
+    color: rgb(68, 68, 68);
+}
+
+.imgBloco2{
+    width: 27px;
+    height: 27px;
+    opacity: 80%;
+    margin-left: 15px;
+}
+
+#bloco3{
+    display: flex;
+    align-items: end;
+    width: 320px;
+    height: 240px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.418);
+    background-image: url(../images/imagemSala1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    transition: background-image 2s ease-in-out;
+}
+
+.fundoButtonBloco3{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 100px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8337710084033614) 49%, rgba(0,0,0,0) 100%);
+
+}
+
+.buttonBloco3{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.imgButtonBloco3{
+    width: 30px;
+    margin-top: 30px;
+}
+
+
+
+.computer{
+    display: none;
+}
+}
+
+.erroPage{
+    display: none;
+}
+
+.header-Erro{
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 100vw;
+    height: 80px;
+    background-color: #1c77ff;
+}
+
+
+
+.img-Erro{
+    width: 65px;
+    height: 50px;
+    transform: rotate(180deg);
+}
+
+.subTitle-Erro{    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 590;
+    margin-left: -15px;
+    color: #ffffff;
+}
+
+.titleError{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 650;
+    margin-left: 7px;
+    color: #1c77ff;
+}
+
+.centerInfos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-progress{
+    width: 240px;
+}
